@@ -1,0 +1,124 @@
+body {
+  font-size: 18px;
+  background-color: hsl(27deg, 66%, 92%);
+  font-family: "DM Sans", sans-serif;
+}
+
+.header_container {
+  background-color: hsl(10deg, 79%, 65%);
+  width: 500px;
+  margin: auto;
+  padding: 3px;
+  border-radius: 15px;
+  position: relative;
+}
+.header_container img {
+  position: absolute;
+  margin-top: auto;
+  top: 0;
+  margin-bottom: auto;
+  bottom: 0;
+  right: 50px;
+}
+.header_container h2 {
+  color: white;
+  padding-left: 25px;
+  margin: 12px;
+}
+.header_container h5 {
+  color: hsl(27deg, 66%, 92%);
+  padding-left: 25px;
+  margin: 12px;
+}
+
+.container_entire {
+  width: 500px;
+  height: 500px;
+  background-color: hsl(33deg, 100%, 98%);
+  border-radius: 15px;
+  margin: auto;
+}
+.container_entire h2 {
+  margin-left: 25px;
+  padding-top: 25px;
+}
+.container_entire .footer {
+  border-top: 1px solid;
+  border-color: hsl(28deg, 10%, 53%);
+  display: flex;
+  margin: 25px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.container_entire .footer h1, .container_entire .footer h5, .container_entire .footer p {
+  margin: 0;
+}
+.container_entire .footer h5 {
+  color: hsl(28deg, 10%, 53%);
+}
+.container_entire .footer p {
+  text-align: right;
+  font-weight: 700;
+}
+.container_entire .footer div {
+  margin-top: 50px;
+}
+.container_entire .bar_basic {
+  width: 50px;
+  height: 0px;
+  background-color: hsl(10deg, 79%, 65%);
+  transition: 0.5s;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+}
+.container_entire .bar_basic:hover {
+  opacity: 0.6;
+}
+.container_entire .amount_container {
+  background-color: hsl(25deg, 47%, 15%);
+  color: white;
+  width: 75px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  left: -13px;
+}
+.container_entire .bar_container {
+  display: flex;
+  height: 250px;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  text-align: center;
+  color: hsl(28deg, 10%, 53%);
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.relative_container {
+  position: relative;
+}
+
+@media all and (max-width: 600px) {
+  .container_entire {
+    width: 90vw;
+  }
+  .header_container {
+    width: 90vw;
+  }
+  .container_entire .bar_basic {
+    width: 10vw;
+  }
+}/*# sourceMappingURL=style.css.map */
